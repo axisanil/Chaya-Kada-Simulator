@@ -97,6 +97,13 @@ const audio = new Audio(file);
   slider.addEventListener("input", (e) => {
     audio.volume = e.target.value;
   });
+  const teaButton = document.getElementById("make-tea");
+const teaSound = new Audio("sounds/tea.mp3");
+
+teaButton.addEventListener("click", () => {
+  teaSound.currentTime = 0;
+  teaSound.play();
+});
 
                 
 const muffleBtn = div.querySelector('.muffle-btn');

@@ -160,3 +160,19 @@ input[type="range"]:hover{
   opacity: 0.7;
   margin-top: -1.5rem;
 }
+.tea-button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  padding: 0.9rem 1.5rem;
+  font-size: 1.1rem;
+  font-family: 'Noto Sans Malayalam', sans-serif;
+  background-color: #d68c45;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background 0.2s ease;
+  z-index: 999;
+}
