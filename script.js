@@ -99,6 +99,7 @@ const audio = new Audio(file);
   });
   const teaButton = document.getElementById("make-tea");
 const teaSound = new Audio("sounds/tea.mp3");
+teaSound.volume = 0.8;
 
 teaButton.addEventListener("click", () => {
   teaSound.currentTime = 0;
