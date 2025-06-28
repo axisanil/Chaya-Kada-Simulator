@@ -148,7 +148,7 @@ input[type="range"]:hover{
   margin-top: -1.5rem;
 }
 .tea-button {
-  position: flex;
+  position: fixed;
   margin-top: 1rem;
   align-items: center;
   display: inline-flex;
@@ -195,4 +195,14 @@ input[type="range"]:hover{
     transition: transform 0.3 ease, box shadow 0.2s ease;
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInUp 0.6s forwards;}
+    animation-name: fadeInUp;
+    animation-duration: 0.6s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+    .soundtea.animate-delay {
+  animation-name: fadeInUp;
+  animation-duration: 0.6s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
