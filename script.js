@@ -151,7 +151,7 @@ sounds.forEach((sound) => {
 // Tea button effect
 const teaButton = document.getElementById("make-tea");
 const teaSound = new Audio("sounds/tea.mp3");
-teaSound.volume = 1.2;
+teaSound.volume = 1.0;
 
 teaButton.addEventListener("click", () => {
   teaSound.currentTime = 0;
